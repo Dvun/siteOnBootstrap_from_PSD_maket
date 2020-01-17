@@ -1,0 +1,239 @@
+/* Spetsifikatsija*/
+
+body {
+    font-family: PT Sans, sans-serif;
+}
+
+ul,
+li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-weight: 700;
+    color: #000;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    font-weight: 400;
+}
+
+
+/* Pervii ekran*/
+
+.header {
+    background: #fcdb00;
+    color: #010101;
+    padding-top: 58px;
+    padding-bottom: 108px;
+}
+
+.menu {
+    margin-top: 10px;
+}
+
+.menu__item {
+    margin: 0 57px;
+}
+
+.menu__item a {
+    font-size: 22px;
+    font-weight: 700;
+    color: #000;
+}
+
+.offer {
+    margin-top: 131px;
+}
+
+.offer_title {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.offer__intro {
+    font-size: 20px;
+    line-height: 1.3em;
+}
+
+.offer__text {
+    font-size: 16px;
+    margin-top: 20px;
+    color: #555555;
+    width: 420px;
+}
+
+.icons__item a {
+    color: #000;
+    font-size: 42px;
+    margin-right: 40px;
+    transition: all 0.5s ease;
+}
+
+.icons__item:hover a {
+    text-decoration: none;
+    color: #ff4800;
+}
+
+.ipad {
+    display: block;
+    margin: 69px 0 auto;
+}
+
+.title {
+    padding-top: 115px;
+    padding-bottom: 91px;
+    text-align: center;
+}
+
+.title__main {
+    font-size: 32px;
+}
+
+.title__text {
+    font-size: 20px;
+    width: 780px;
+    margin: 0 auto;
+}
+
+
+/* Vtoroi ekran*/
+
+.features {
+    margin-bottom: 80px;
+}
+
+.features__icon {
+    font-size: 50px;
+    margin-right: 33px;
+    color: #000;
+}
+
+.features__text {
+    font-size: 16px;
+    width: 220px;
+    color: #aaaaaa;
+}
+
+.features__icon2 {
+    font-size: 50px;
+    margin-right: 11px;
+    color: #000;
+}
+
+.features__icon3 {
+    font-size: 50px;
+    margin-right: 24px;
+    color: #000;
+}
+
+
+/* Tretii ekran*/
+
+.yellow {
+    color: #fcdb00;
+}
+
+.touch {
+    background: #010101;
+    color: #808080;
+    padding-top: 93px;
+}
+
+.form {
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.form__input {
+    width: 578px;
+    background: white;
+    font-size: 16px;
+    font-family: PT Sans, sans-serif;
+    border: none;
+    border-radius: 5px;
+    margin-right: 21px;
+    padding: 14px 0;
+    padding-left: 23px;
+}
+
+.form__btn {
+    font-size: 16px;
+    font-weight: bold;
+    width: 126px;
+    background: #fcdb00;
+    border: none;
+    padding: 14px 0;
+    border-radius: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.footer {
+    background: #010101;
+}
+
+.credits {
+    padding-top: 45px;
+    text-align: center;
+    width: 200px;
+    margin: 0 auto;
+    padding-bottom: 103px;
+    color: #bfbfbf;
+    font-size: 16px;
+}
+
+
+/* Media zaprosq*/
+
+@media screen and (max-width: 992px) {
+    .logo {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    .offer {
+        text-align: center;
+    }
+    .offer__text {
+        margin: 20px auto;
+    }
+    .icons {
+        justify-content: center;
+    }
+    .icons__item:nth-child(3) {
+        margin-right: 0;
+    }
+    .form__input {
+        margin-right: 0;
+        width: 100%;
+    }
+    .form__btn {
+        width: 100%;
+    }
+    .title__text {
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .ipad {
+        width: 100%;
+    }
+    .menu {
+        flex-direction: column;
+    }
+    .menu__item {
+        text-align: center;
+    }
+}
